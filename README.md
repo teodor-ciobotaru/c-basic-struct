@@ -1,2 +1,3 @@
-# c-basic-struct
-A basic structure implemented in a practical example.
+# Basic Struct
+
+In this project I attempted to learn how to make use of the `struct` data type in C. I did this by creating a very simple structure with only two attributes: an X and Y coordinate for a point in space. I then declared an array of three points meant to represent the three points of a triangle and a single point meant to represent the center of mass of the triangle. Using a simple `for` loop, I then prompt the user of the program to input the coordinates for all three points. In this project I learned how to check whether the input that the `scanf` function receives is adequate or not and implemented a rudimentary check that stops the program completely if the input fails. In the future I would like to learn how to allow the user to continue inputting data until the data type is correct, instead of exiting the program entirely.
