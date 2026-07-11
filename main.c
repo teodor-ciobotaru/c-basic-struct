@@ -18,7 +18,6 @@ int main()
     for (i = 0; i < 3; i++)
     {
         printf("Input the X coordinate of point %d: ", i + 1);
-
         if (scanf("%f", &triangle_points[i].x) == 0)
         {
             printf("[ERROR]: Incorrect data type. Please input a number.\n");
@@ -29,7 +28,6 @@ int main()
             center_of_mass.x += triangle_points[i].x;
 
         printf("Input the Y coordinate of point %d: ", i + 1);
-
         if (scanf("%f", &triangle_points[i].y) == 0)
         {
             printf("[ERROR]: Incorrect data type. Please input a number.\n");
